@@ -1,0 +1,8 @@
+body
+{
+	background: red;
+	border: 1px solid blue;
+	color: white;
+	font-size: 16px;
+	max-width: 1024px;
+}
