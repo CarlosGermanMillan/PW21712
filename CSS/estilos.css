@@ -1,8 +1,33 @@
 body
 {
-	background: red;
+	background: white;
 	border: 1px solid blue;
-	color: white;
+	color: blue;
 	font-size: 16px;
 	max-width: 1024px;
+	margin: 0px auto;
+}
+
+header{
+	text-align: center;
+	border: 1px solid red;
+
+}
+
+header img{
+	/*float: right;*/
+	width: 90px; 
+	float: right;
+	margin: -70px 20px 0px 0px;
+}
+
+header nav ul li{
+	/*border: 1px solid tomato;*/
+	background: red;
+	display: inline-block;   /*Abarca solo el ancho del contenido */
+	padding: 5px 10px;
+	margin: 0px 10px 0px 0px;
+	width: 84px;
+	color: white;
+	border-radius: 7px;
 }
