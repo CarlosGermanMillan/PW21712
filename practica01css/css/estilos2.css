@@ -1,6 +1,77 @@
 body{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	font-size: 16px;
 	margin: 0 auto;
 	max-height: 1024px;
+}
+form{
+	float: right;
+	margin-top:-40px;
+	margin-right: 20px;
+}
+header{
+	background: #B3D8EB;
+
+}
+form input{
+	border-radius: 5px;
+}
+form input[type="button"]{
+	background: green;
+	color: white;
+}
+header nav{
+	background: #0E6CB0;
+	margin: 0 auto;
+	width: 99%;
+	padding: 2px 0px 2px 0px;
+	border-radius: 5px;
+}
+/*header img{
+	margin: 0 auto;
+	margin-top:-80px;
+}*/
+header nav ul li{
+	color: white;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#logo{
+	margin-top: -170px;
+}
+/*comentarios cmd+shift+7*/
+
+#seccion01 article{
+/*	border: 1px solid red;*/
+	text-align: center;
+}
+#seccion01 article img{
+	border: 3px solid rgba(150,150,150,0.5);
+	margin-top: 13px;
+	width: 98%;
+}
+#seccion02 article{
+	width: 32.8%;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.unaSeccion{
+	font-size: 4.8em;
+}
+.otraSeccion{
+	font-size: 2.8em;
+	
+}
+.otraSeccion,.unaSeccion{
+	font-weight: bold;   /*negritas*/
+}
+/*
+cambiar tipo de letra para los span, botones
+ centrados y letra azul
+*/
+[type="submit"]{
+	background: white;
+	color: blue;
 }
