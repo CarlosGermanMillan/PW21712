@@ -1,0 +1,111 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*centramos el body*/
+	max-width: 1078px; /*empresa-cliente*/
+	min-width: 1078px;
+}
+header input
+{
+	float:right;
+	margin-right: -200px;
+	margin-top: 8px;
+	position: relative;
+	/*static, absolute, fixed*/
+}
+header nav{
+	/*border: 1px solid red;*/
+	margin-left: 220px;
+	/*text-align: center;*/
+}
+header nav ul li{
+	border-bottom: 1px solid gray;	/*dashed(punteado)*/
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 18px;
+	/*text-decoration: underline;*/
+}
+#bgoffer{
+	right: 850px;
+	position: relative;
+	top:-90px;
+}
+#primerseccion{
+	height: 318px;
+	margin-top: 60px;
+}
+#primerseccion article{
+	/*border: 1px solid red;*/
+	display:inline-block;
+	vertical-align: top;
+}
+#granthams{ /*Logo de la empresa*/
+	margin-top:20px;
+	margin-left: 20px
+}
+
+#paint {
+	float:right;
+}
+#secc01art01{
+	width: 50%;
+	margin-left: 50px;
+}
+#secc01art01 img{
+	width: 100%;
+}
+#secc01art02{
+	margin-left: 50px;
+	width: 20%;
+}
+#secc01art02 ul{
+	list-style: none;
+}
+#secc01art02 ul li:before{
+	content: "• ";
+	color: #FF0099;
+}
+#secc03art04{
+	margin-top: 50px;
+	margin-left: 45;
+}
+#segundaseccion article{
+	text-align: right;
+	padding-right: 250px;
+}
+#terceraseccion article{
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+}
+#terceraseccion article img{
+	vertical-align: middle;
+}
+#terceraseccion article input[type="button"]{
+	background: #A6DE47;
+	color: white;
+}
+
+.wecanoffer{
+	color: #FF0099;
+	font-size: 3em;
+	font-weight: bold;
+}
+.numerotelefono{
+	color: #FF0099;
+	font-size: 2em;
+	font-weight: bold;
+}
+.colorrosa{
+	color: #F4A3C6;
+}
+.colorverde{
+	color: #A6DE47;
+}
+.colorazul{
+	color: #16BEF8;
+}
+.colorazul,.colorverde,.colorrosa{
+	font-size: 1em;
+	font-weight: bold;
+}
