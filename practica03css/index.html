@@ -4,17 +4,22 @@
 	<meta charset="UTF-8">
 	<title>Práctica 03 de CSS3</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Londrina+Shadow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<img src="img/logo.jpg">
-		<img src="img/red1.png">
-		<img src="img/red2.png">
-		<img src="img/red3.png">
+		<span class="redes">
+			<img src="img/red3.png" id="red3">
+			<img src="img/red2.png" id="red2">
+			<img src="img/red1.png" id="red1">
+		</span>
+	
 		<span class="mitemahtml5">MI THEMA EN HTML5</span>
 		<nav>
 			<ul>
-				<li>INICIO</li>				
+				<li id="li1">INICIO</li>				
 				<li>TUTORIALES</li>
 				<li>VIDEOS</li>
 				<li>JAVASCRIPT</li>
@@ -26,46 +31,57 @@
 	</header>	
 	<section id="primerseccion">
 		<article id="secc01art01">
-			<img src="img/slider.jpg">
+			<img src="img/slider.jpg" id="slider">
 		</article>
 		<article id="secc01art02">
 			<span class="Titulodelpost">Título del Post</span>
 		</article>
 		<article id="secc01art03">
 			<img src="img/img-post.jpg">
-			<span class="Admin">Por Admin El 30/05/2012. En Pruebas</span><br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
-			<input type="button" value="Leer Mas...">
+			<span class="block">	
+				<span class="Admin">Por <span class="efe">Admin</span> El <span class="efe">30/05/2012.</span> En <span class="efe">Pruebas</span></span><br>
+				<span class="lorem">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. 
+				</span>
+				<br>
+				<input type="button" value="Leer Mas...">
+			</span>
 		</article>
 	</section>
 	<section id="segundaseccion">
 		<article id="secc02art01">
 			<span class="publicidad">Publicidad</span>
-			<img src="img/publicidad.jpg">
-			<img src="img/publicidad.jpg">
-			<img src="img/publicidad.jpg">
-			<img src="img/publicidad.jpg">
+			<div class="publicidades">
+				<span>	
+					<img src="img/publicidad.jpg">
+					<img src="img/publicidad.jpg">
+				</span>
+				<span>
+					<img src="img/publicidad.jpg">
+					<img src="img/publicidad.jpg">	
+				</span>
+			</div>
 		</article>				
 		<article id="secc02art02">
 			<span class="buscador">Buscador</span>
-			<input type="email" placeholder="Search...">
-			<input type="button" value="Go">
+			<span class="decoracion">
+				<input type="email" placeholder="Search...">
+				<input type="button" value="Go">
+			</span>
 		</article>
 		<article id="secc02art03">
 			<span class="categorias">Categorias</span>		
 			<ul>
-				<li>Categoria 1</li>	
-				<li>Categoria 2</li>
-				<li>Categoria 3</li>
-				<li>Categoria 4</li>
-				<li>Categoria 5</li>
-				<li>Categoria 6</li>
-				<li>Categoria 7</li>			
+				<li>categoria 1</li>	
+				<li>categoria 2</li>
+				<li>categoria 3</li>
+				<li>categoria 4</li>
+				<li>categoria 5</li>
+				<li>categoria 6</li>
+				<li>categoria 7</li>			
 			</ul>
 		</article>
 	</section>
