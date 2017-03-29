@@ -1,0 +1,158 @@
+body{
+	font-size: 16px; /*1em*/
+	font-family: segoe ui;
+	margin: 0 auto;
+	max-width: 1024px;
+	min-width: 1024px;
+	background: #265D8E;
+	border: 4px solid white;
+}
+header{
+	text-align: center;
+}
+header nav{
+	text-align: right;
+	background: #ECECEE;
+	margin-left: 2px;
+	margin-right: 3px;
+	padding: 6px 23px 6px 0px;
+	vertical-align: middle;
+}
+
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+#artbarras{
+	padding-left: 7px;
+	background: white;
+}
+#artbarras img{
+	width: 95%;
+}
+#cubo1{
+	background: #23A72B;
+}
+#cubo2{
+	background: #265D8E;
+}
+#cubo3{
+	background: #7E23A4;
+}
+#cubo4{
+	background: #A82221;
+}
+#panel{
+	background-color: #20507B;
+}
+#panel img{
+	width: 100%;
+
+}
+#panel ul{
+
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 7px;
+}
+#panel ul li{
+	color: white;
+}
+#panel ul li::before{
+	content: "</> ";
+	color: white;
+}
+#seccion1{
+	width: 20%;
+	background:#ECECEE;
+	padding: 0px 15px 37px 15px;
+	margin-left: 2px;
+	margin-right: -4px;
+}
+
+#logo{
+	height: 70px;
+}
+#logpr{
+	vertical-align: middle;
+	width: 18px;
+}
+#noti{
+	width: 77px;
+}
+#mensa{
+	width: 60px;
+}
+#conf{
+	width: 55px;
+}
+
+
+#progress{
+	background: #265D8E;
+	padding: 5px 0px 5px 0px;
+}
+#progress span{
+	color: white;
+}
+#seccion2{
+	width: 76%;
+	background:white;
+	margin-left: -1px;
+	padding-right: 6.5px;
+	padding-bottom: 3px;
+}
+#s2a1{
+	text-align: center;
+}
+#s2a1 img{
+	width: 70px;
+	height: 70px;
+}
+#s2a2{
+	text-align: center;
+}
+#s2a2 article img{
+	width: 94%;
+}
+#s2a3{
+	text-align: center;
+}
+#s2a3 img{
+	width: 70px;
+	height: 70px;
+}
+#s2a3 article input{
+	margin-top: 7px;
+	padding: 5px 3px 5px 3px;
+	color: white;
+	background: #57CBFF;
+	border-radius: 5px;
+}
+#titcubos,#titpanels,#titusuarios{
+	text-align: left;
+	padding-left: 28px;
+}
+
+.tit{
+	font-size: 0.7em;
+	color: gray;
+}
+.cubos{
+	padding-bottom: 15px;
+	border-radius: 5px;
+}
+.cubos,.usuario{
+	display: inline-block;
+	width: 23%;
+}
+.txtcubos{
+	color:white;
+}
+.txtusuario{
+	color: white;
+}
+.usuario{
+	background: #2273AA;
+	padding: 5px 0px 8px 0px;
+}
