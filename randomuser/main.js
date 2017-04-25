@@ -21,6 +21,7 @@ function muestraPantallaPrincipal(){
 		protocol: 'file',
 		slashes: true
 	}))
+	// PantallaPrincipal.openDevTools();
 	PantallaPrincipal.show()
 }
 
