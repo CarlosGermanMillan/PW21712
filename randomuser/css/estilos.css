@@ -6,6 +6,19 @@ img{
 	border-radius: 200px;
 	width: 200px;
 }
-#txtNombre{
-	font-size: 2em;
+
+#secc01{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	background: blue;
+	height: 4000px;
+}
+span{
+	font-size: 1.5em;
+	color: blue;
+}
+#secc02{
+	display: inline-block;
+	width: 60%;
 }

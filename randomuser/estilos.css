@@ -9,3 +9,15 @@ img{
 #txtNombre{
 	font-size: 2em;
 }
+
+#secc01
+{
+	border: 1px solid blue;
+	display: inline-block;
+	width: 20%;
+	background: red;
+}
+#secc02{
+	display: inline-block;
+	width: 60%;
+}

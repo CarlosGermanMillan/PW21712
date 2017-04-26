@@ -22,6 +22,14 @@ function datosRandom(){
 	  success: function(data) {
 	    //console.log(data);
 	    $("#txtNombre").html(data.results[0].name.first+" "+data.results[0].name.last)
+	   	$("#txtgender").html(data.results[0].gender)
+	   	$("#txtemail").html(data.results[0].email)
+	   	$("#txtlocation").html(data.results[0].location.street+" "+
+	   							data.results[0].location.city+" "+
+	   							data.results[0].location.state+" "+
+	   							data.results[0].location.postcode)
+	   	$("#txtlogin").html(data.results[0].login.username+"<br>"+
+	   						data.results[0].login.password)
 	    $("#imgFoto").attr("src",data.results[0].picture.large)
 	  },
 	  error(a,b,c){
